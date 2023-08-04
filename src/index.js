@@ -8,7 +8,7 @@
 
 // module.exports = { writeFile };
 
-const fs = require('fs');
+const fs = require('node:fs');
 
 const writeFile= async (filename, content) {
   // Create a new file with the given filename and content
