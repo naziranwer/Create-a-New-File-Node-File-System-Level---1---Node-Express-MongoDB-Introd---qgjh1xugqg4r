@@ -10,7 +10,7 @@ const writeFile = async (fileName, fileContent) => {
   }});
 };
 
-// module.exports = { writeFile };
+module.exports = { writeFile };
 
 // const fs = require('node:fs');
 
