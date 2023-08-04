@@ -10,16 +10,13 @@
 
 const fs = require('fs');
 
-function writeFile(filename, content) {
+const writeFile= async (filename, content) {
   // Create a new file with the given filename and content
   fs.writeFile(filename, content, (err) => {
     if (err) {
       // If there's an error, log the error message
       console.error(err);
-    } else {
-      // If writing is successful, log a success message
-      console.log(`File '${filename}' created successfully.`);
-    }
+
   });
 }
 
